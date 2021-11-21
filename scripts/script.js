@@ -13,6 +13,8 @@ const months = ["Janeiro",
    "Novembro",
    "Dezembro"];
 
+refreshDate();
+
 let idInterval;
 
 if(!idInterval){
