@@ -28,5 +28,5 @@ function refreshDate() {
       }   
    }
    dayDate.innerHTML = `${actualDate.getDate()} de ${months[actualDate.getMonth()]} de ${actualDate.getFullYear()}`;
-   hours.innerHTML = `${paramClock[0]}:${paramClock[1]}:${paramClock[2]}`;
+   hours.innerHTML = `<p>${paramClock[0]}</p><p id="dots">:</p><p>${paramClock[1]}</p><p id="dots">:</p><p>${paramClock[2]}</p>`;
 }
